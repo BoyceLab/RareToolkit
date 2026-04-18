@@ -1,0 +1,37 @@
+site_name: Rare Disease Patient Advocacy Group's Guide to Data Collection with GA4GH
+site_description: Practical guidance for patient advocacy groups building rare disease registries and structured data collection workflows with GA4GH standards.
+site_url: https://example.org/
+repo_name: patient-advocacy-ga4gh-guide
+nav:
+  - Home: index.md
+  - Start Here:
+      - Why this guide exists: start-here/why-this-guide.md
+      - GA4GH in plain language: start-here/ga4gh-in-plain-language.md
+      - A simple adoption roadmap: start-here/adoption-roadmap.md
+  - Structured Phenotype Data:
+      - HPO overview: phenotype/hpo-overview.md
+      - Questionnaire design with HPO: phenotype/questionnaire-design.md
+      - Suggested registry questions: phenotype/suggested-questionnaires.md
+  - GA4GH Data Models:
+      - Phenopackets for registries: data-models/phenopackets.md
+      - Minimal data model: data-models/minimal-data-model.md
+      - Example mapping workflow: data-models/mapping-workflow.md
+  - Governance and Operations:
+      - Consent, privacy, and trust: governance/consent-privacy-trust.md
+      - Data quality and updates: governance/data-quality.md
+      - Implementation checklist: governance/checklist.md
+  - Resources:
+      - Videos and external resources: resources/videos-and-links.md
+      - Glossary: resources/glossary.md
+      - About this site: resources/about.md
+theme:
+  name: mkdocs
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
+  - def_list
+extra:
+  generator: false
